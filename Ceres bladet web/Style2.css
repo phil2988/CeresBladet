@@ -1,4 +1,9 @@
 
+#top {
+	background-color: lime;
+	padding: 1%;
+	text-align: center;
+}
 h1{
 	text-align: center;
 }
@@ -13,11 +18,11 @@ p {
 
 html{
 	font-family: Arial;
+	background-color: green;
 }
 
 table, th, td {
-  border: 0px solid black;
-<<<<<<< HEAD
+  border: 2px solid black;
   
 }
 
@@ -30,14 +35,7 @@ table, th, td {
 	background-color: white;
 	margin-right: 15%;
 	margin-left: 15%;
-	border: 3px solid black;
+	border: 20px solid white;
 	outline-color: invert;
 	outline-style: solid;
 }
-=======
-}
-
-#title{
-	width: 2000px
-}
->>>>>>> df5ccc3427cc80c8f41b8dbd91129d5ee1b6510e
