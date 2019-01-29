@@ -13,12 +13,18 @@ p {
 
 html{
 	font-family: Arial;
+	background-color: green;
 }
 
 table, th, td {
-  border: 0px solid black;
+  border: 1px solid black;
 }
 
 #title{
-	width: 2000px
+	width: 100%;
+	padding-right: 10%;
+}
+
+#mid {
+	background-color: white;
 }
