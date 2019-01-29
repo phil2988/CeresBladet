@@ -17,7 +17,8 @@ html{
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 0px solid black;
+  
 }
 
 #title{
@@ -27,4 +28,9 @@ table, th, td {
 
 #mid {
 	background-color: white;
+	margin-right: 15%;
+	margin-left: 15%;
+	border: 3px solid black;
+	outline-color: invert;
+	outline-style: solid;
 }
