@@ -4,7 +4,8 @@ body{
 
 h1{
 	color: black;
-	font-size: 200;
+	font-size: 70px;
+	text-align: CENTER;
 }
 
 img{
@@ -16,7 +17,7 @@ table, th, td{
 	border: 3px solid black;
 }
 
-#Title{
+#title{
 	width: 2000px;
 }
 
