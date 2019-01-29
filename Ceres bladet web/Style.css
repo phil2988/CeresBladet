@@ -25,8 +25,8 @@ table, th, td{
 .dropbtn {
   background-color: #3498DB;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 25px;
   border: none;
   cursor: pointer;
 }
@@ -54,10 +54,12 @@ table, th, td{
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  font-size: 25px;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: Arial;
 }
 
 /* Change color of dropdown links on hover */
@@ -66,22 +68,4 @@ table, th, td{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
