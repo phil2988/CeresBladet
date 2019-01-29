@@ -1,5 +1,5 @@
 body{
-	background-color: green;
+	background-color: #33cc33;
 }
 
 h1{
@@ -9,7 +9,7 @@ h1{
 }
 
 img{
-	height: 150px;
+	height: 230px;
 	width: auto;
 }
 
@@ -23,7 +23,9 @@ table, th, td{
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #3498DB;
+  background-color: #9999ff;
+  width: 200px;
+  height: 100px;
   color: white;
   padding: 20px;
   font-size: 25px;
