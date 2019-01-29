@@ -12,4 +12,12 @@ img{
 	width: auto;
 }
 
+table, th, td{
+	border: 3px solid black;
+}
+
+#Title{
+	width: 2000px;
+}
+
 
