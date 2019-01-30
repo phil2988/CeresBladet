@@ -9,7 +9,7 @@ h1{
 }
 
 img{
-	height: 230px;
+	height: 200px;
 	width: auto;
 }
 
@@ -70,4 +70,9 @@ table, th, td{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 
+<img class="mySlides" src="Artikel1.PNG">
+<img class="mySlides" src="Artikel2.PNG">
+<img class="mySlides" src="Artikel3.PNG">
 
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
