@@ -4,26 +4,13 @@ body{
 
 #top {
 	background-color: white;
-	padding: 1%;
 	text-align: center;
 }
 
-h1{
-	color: black;
-	font-size: 300%;
-	text-align: CENTER;
-	font-family: comic sans;
-	/*text-transform: uppercase;*/
-}
-
-img{
+#Logo{
 	align: CENTER;
-	height: 150px;
-	width: auto;
-}
-
-table, th, td{
-	
+	max-width: 15%;
+	height: auto;
 }
 	
 #title{
@@ -59,7 +46,7 @@ table, th, td{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  max-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -85,7 +72,7 @@ table, th, td{
 /* Slideshow container */
 .slideshow-container {
   padding-top: 25px;
-  width: 90%;
+  width: 65%;
   height: 90%;
   position: relative;
   margin: auto;
@@ -151,3 +138,5 @@ table, th, td{
 }
 
 #B1 {height: 100%}
+#B2 {height: 100%}
+#B3 {height: 100%}
