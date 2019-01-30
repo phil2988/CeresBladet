@@ -2,24 +2,59 @@
 <html>
   <head>
 	<meta charset="UTF-8">
-    <title>CB Alle artikler</title>
+    <title>CB Om os</title>
 	<link href="style2.css" type="text/css" rel="stylesheet">
   </head>
 
   <body>
 	<!-- Toppen -->
 	<div id="top">
-		<img src="logo.PNG" height="100" id="Logo"/>
+		<img src="logo.PNG" id="Logo"/>
 	</div>
+		<div class="dropdown">
+		  <button onclick="myFunction()" class="dropbtn" >Menu</button>
+		  <div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Artikler.html">Artikler Emnesorteret</a>
+			<a href=".\Alle artikler.html">Alle Artikler</a>
+			<a href=".\Om.html">Om Os</a></strong>
+		  </div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
 	<br>
+	<!-- Undermenu -->
+	<ul>
+		<li><a href="Om os.html" class="active">Om os</a></li>
+		<li><a href="Redaktører.html">Redaktører</a></li>
+		<li><a href="Journalister.html">Journalister</a></li>
+		<li><a href="Webdesignere.html">Webdesignere</a></li>
+	</ul> 
 	
 	<div id="mid">
-		<h2>Alle artikler</h2>
+		<h2>Om os</h2>
 		<table>
 		<!-- Et tekstfelt -->
 			<tr>
 				<td>
-					<h3>Titel på artikel</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius finibus velit, nec finibus nisi suscipit nec. Vestibulum nec risus id sapien gravida varius et vel diam. Sed eget felis eget nibh ultricies sodales. Mauris id mauris vel eros rhoncus ullamcorper. Ut mattis bibendum tortor finibus posuere. Etiam dignissim turpis vel viverra tincidunt. Cras nibh tellus, pulvinar ac auctor non, accumsan vel purus. Nulla pharetra risus ac venenatis dapibus. Sed ac nisl odio. Ut nunc mi, imperdiet at blandit sit amet, ultricies vel velit. Suspendisse vehicula a nibh nec egestas. Cras commodo ipsum ac ipsum pellentesque lobortis. Sed in ipsum sit amet urna venenatis pretium. Suspendisse potenti. Nullam mattis ex ac dolor semper consectetur. Donec venenatis urna ante, eu pharetra dui bibendum eu.</p>
 				</td>
 				<td>
@@ -29,15 +64,13 @@
 		<!-- Et tekstfelt -->
 		<tr>
 				<td>
-					<h3>Titel på artikel</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius finibus velit, nec finibus nisi suscipit nec. Vestibulum nec risus id sapien gravida varius et vel diam. Sed eget felis eget nibh ultricies sodales. Mauris id mauris vel eros rhoncus ullamcorper. Ut mattis bibendum tortor finibus posuere. Etiam dignissim turpis vel viverra tincidunt. Cras nibh tellus, pulvinar ac auctor non, accumsan vel purus. Nulla pharetra risus ac venenatis dapibus. Sed ac nisl odio. Ut nunc mi, imperdiet at blandit sit amet, ultricies vel velit. Suspendisse vehicula a nibh nec egestas. Cras commodo ipsum ac ipsum pellentesque lobortis. Sed in ipsum sit amet urna venenatis pretium. Suspendisse potenti. Nullam mattis ex ac dolor semper consectetur. Donec venenatis urna ante, eu pharetra dui bibendum eu.</p>
 				</td>
 				<td>
 					<img src="Gruppebillede.JPG" width="200"/>
 				</td>
 			</tr>
-			
-		</table>	
+		</table>
 	</div>
   </body>
 </html>
