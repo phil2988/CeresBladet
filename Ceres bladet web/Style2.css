@@ -24,8 +24,16 @@ html {
 	scroll-behaivor: smooth;
 }
 
-table, th, td {
-  border: 0px solid black;
+#person{
+	float: left;
+	border: 2px solid black;
+	margin-right: 5px;
+}
+
+#gruppe{
+	float: right;
+	border: 2px solid black;
+	margin-left: 5px;
 }
 
 #title{
@@ -34,13 +42,15 @@ table, th, td {
 
 #mid {
 	background-color: white;
-	margin-right: 10%;
+	margin-right: 15%;
 	margin-left: 15%;
 	border: 20px solid white;
 	border-top: 1px solid white;
 	outline-color: invert;
 	outline-style: solid;
 	position: relative;
+	z-index: -1;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
 }
 
 /*Navbar undermenu */
