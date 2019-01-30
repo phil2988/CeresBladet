@@ -1,24 +1,33 @@
 body{
-	background-color: #33cc33;
+	background-color: green/*#33cc33*/;
+}
+
+#top {
+	background-color: lime;
+	padding: 1%;
+	text-align: center;
 }
 
 h1{
 	color: black;
-	font-size: 400%;
+	font-size: 300%;
 	text-align: CENTER;
+	font-family: comic sans;
+	/*text-transform: uppercase;*/
 }
 
 img{
-	height: 200px;
+	height: 100px;
 	width: auto;
 }
 
 table, th, td{
-	border: 3px solid black;
+	border: 1px solid black;
 }
 	
 #title{
-	width: 2000px;
+	width: 100%;
+	padding-right: 10%;
 }
 
 /* Dropdown Button */
