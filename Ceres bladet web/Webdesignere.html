@@ -9,45 +9,47 @@
   <body>
 	<!-- Toppen -->
 	<div id="top">
-		<img src="logo.PNG" id="Logo"/>
+		<img src="logo.PNG" height="100" id="Logo"/>
 	</div>
-		<div class="dropdown">
-		  <button onclick="myFunction()" class="dropbtn" >Menu</button>
-		  <div id="myDropdown" class="dropdown-content">
-			<strong><a href=".\Main.html" >Forside</a>
-			<a href=".\Artikler.html">Artikler Emnesorteret</a>
-			<a href=".\Alle artikler.html">Alle Artikler</a>
-			<a href=".\Om.html">Om Os</a></strong>
-		  </div>
-		<br>
-		
-		<script> /*Dropdown*/
-			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-			function myFunction() {
-			  document.getElementById("myDropdown").classList.toggle("show");
-			}
-			// Close the dropdown menu if the user clicks outside of it
-			window.onclick = function(event) {
-			  if (!event.target.matches('.dropbtn')) {
-				var dropdowns = document.getElementsByClassName("dropdown-content");
-				var i;
-				for (i = 0; i < dropdowns.length; i++) {
-				  var openDropdown = dropdowns[i];
-				  if (openDropdown.classList.contains('show')) {
-					openDropdown.classList.remove('show');
+		<div id="menu">
+			<!-- <div class="dropdown"> -->
+				<button onclick="myFunction()" class="dropbtn" >Menu</button>
+				<div id="myDropdown" class="dropdown-content">
+					<strong><a href=".\Main.html" >Forside</a>
+					<a href=".\Artikel layout 1.html">Artikler Emnesorteret</a>
+					<a href=".\Alle artikler.html">Alle Artikler</a>
+					<a href=".\Om os.html">Om Os</a></strong>
+				</div>
+			<br>
+			
+			<script> /*Dropdown*/
+				/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+				function myFunction() {
+				  document.getElementById("myDropdown").classList.toggle("show");
+				}
+				// Close the dropdown menu if the user clicks outside of it
+				window.onclick = function(event) {
+				  if (!event.target.matches('.dropbtn')) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+					  var openDropdown = dropdowns[i];
+					  if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					  }
+					}
 				  }
 				}
-			  }
-			}
-		</script>
-	<br>
-	<!-- Undermenu -->
-	<ul>
-		<li><a href="Om os.html">Om os</a></li>
-		<li><a href="Redaktører.html">Redaktører</a></li>
-		<li><a href="Journalister.html">Journalister</a></li>
-		<li><a href="Webdesignere.html" class="active">Webdesignere</a></li>
-	</ul> 
+			</script>
+		<br>
+		<!-- Undermenu -->
+		<ul>
+			<li><a href="Om os.html">Om os</a></li>
+			<li><a href="Redaktører.html">Redaktører</a></li>
+			<li><a href="Journalister.html">Journalister</a></li>
+			<li><a href="Webdesignere.html" class="active">Webdesignere</a></li>
+		</ul> 
+	</div>
 	
 	<div id="mid">
 		<h2>Webdesignere</h2>

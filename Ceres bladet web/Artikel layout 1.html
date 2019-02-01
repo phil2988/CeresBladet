@@ -11,10 +11,41 @@
 	<div id="top">
 		<img src="logo.PNG" height="100" id="Logo"/>
 	</div>
-	<br>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Artikel layout 1.html">Artikler Emnesorteret</a>
+			<a href=".\Alle artikler.html">Alle Artikler</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
 	
 	<div id="mid">
 		<h2>Artikel layout 1</h2>
+		<div id="byline">Byline</div>
 		<div align="center">
 			<img src="Placeholder billede.JPG" height="100%" id="AB"/>
 			<p id="BT">Billedetekst står her. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -29,5 +60,8 @@
 		<p>Morbi volutpat orci vel dolor interdum, eget fringilla turpis blandit. Nulla vel malesuada est. Phasellus euismod metus id feugiat dapibus. Curabitur congue gravida gravida. Curabitur ac ultricies nibh. Donec laoreet consequat sodales. </p>
 		<p></p>
 	</div>
+	<br>
+	<br>
+	<br>
   </body>
 </html>
