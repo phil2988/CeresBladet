@@ -61,12 +61,30 @@ html {
 	margin-bottom: 0px;
 }
 
+#AB2 {
+	width: 30%;
+	height: auto;
+	border: 2px solid black;
+	margin: auto;
+	margin-bottom: 0px;
+	float: right;
+	margin-left: 1%;
+}
+
 #BT {
 	font-family: italic;
 	font-size: 10pt;
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-top: 0px;
+}
+
+#BT2 {
+	font-family: italic;
+	font-size: 10pt;
+	padding-left: 10%;
+	margin-top: 0px;
+	text-align: right;
 }
 
 #Logo {
@@ -87,6 +105,7 @@ html {
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
+	padding-left: 10px;
 }
  
 /*Navbar undermenu om os*/
