@@ -17,6 +17,7 @@ h3, p{
 p {
 	font-size: 18px;
 	text-align: justify;
+	margin-top: 0px;
 }
 
 html {
@@ -34,12 +35,13 @@ table, th, td {
 	margin-right: 5px;
 	transform: rotate(90deg);
 	margin-bottom: 50px;
+	margin-top: 21px;
 }
 
 #gruppe{
 	float: right;
 	border: 2px solid black;
-	margin-left: 5px;
+	margin-left: 10px;
 }
 
 #title{
@@ -55,7 +57,7 @@ table, th, td {
 	border-top: 1px solid white;
 	outline-color: invert;
 	outline-style: solid;
-	position: relative;
+	position: absolute;
 	z-index: -1;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
@@ -147,7 +149,7 @@ li a:hover {
 /* Dropdown Button */
 .dropbtn {
   background-color: #208000;
-  width: 14%;
+  width: 180px;
   height: 100px;
   color: white;
   padding: 20px;
