@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"> 
+    <title>CB Sundhed</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Københavns universitet</h2>
+		<div id="byline" style="padding-left: 1%;">Hasan El-Yassin <br>05-02-2019</div>
+		<h3>Døde foster & spændene metoder at lære på er tilgængeligt på Københavns universitet, vi skulle bruge vores sanser for at kunne vurdere mayonnaise & lærte om hvordan store firmaer prøver at appellere deres produkt til så mange folk mulig, uden at det smager helt dårligt. En privat samling med døde fostrer er tilgængeligt for se & man får lov til at operer i dyr efter noget tid, hvis man har tænkt sig at uddanne sig som en dyrlæge. Store & spændene bygning omkring campus er også tilgængelige for at holde eleverne underholdt, som for eksempel fredags café.</h3>
+		
+		<h4>Emulsioner</h4>
+		<p>I turen til Københavns Universitet, fik vi lov til at se en lille del af hvad der foregår der, på en almindelig dagligdag. Den måde universitet & campus er sat op, er ret interessent & læringsmetoderne er forskellige fra hvad vi oplever i gymnasiet, siden man skulle kunne lære fag indenfor måneder, i stedet for at afslutte dem hver år, hvilket får det hele til at gå meget hurtigere.</p>
+		<p>Og hurtigt gik det, fordi underviseren gik hurtigt igennem dagsordenen & vi skulle en del. Vi lærte en del omkring sensorik & vi skulle arbejde med noget mayonnaise & mere præcist hvordan dressinger & sauce fungere, i når det kommer til smag, hvilket har en del med emulsioner at gøre.</p>
+		<p>Kort forklaret er en emulsion at blande to væsker sammen, som normalt ikke ville kunne blandes, det kan gøres ved at ryste olie & vand sammen, men det er en ustabil emulsion, derfor ville det skille sig igen, men hvis man tilføjer en emulgator, så kan det stabiliseres og blandes sammen.</p>
+		
+		<img src=".\sundhed\forsøg.PNG" id="AB" style="width: 40%; margin-left: 1%;"/>
+		<p id="BT" style="width: 40%;">Os der bruger emulsion for at blande olie & vand sammen for at lave mayonnaise.</p>
+		
+		<h4>København Universitet</h4>
+		<img src=".\sundhed\uni.PNG" id="AB" style="width: 80%; margin-left: 1%;"/>
+		
+		<br><br>
+		<p>Da vi fik lavet vores mayonnaise ved at bruge æg, vand & olie. I den her situation er æg en naturlig emulgator & derfor var det muligt at blande olie & vand, vi havde fået lavet to helt forskellige mayonnaiser & vi skulle teste hvilke vi kunne lide mest ved at skrive om smag, glathed & hvor meget vi kunne lide det fra 1 – 10.</p>
+		<p>Ikke nok med det, men så fik vi også en rundvisning omkring campus, for at se hvad der er tilgængeligt for eleverne & vi fik lov til at se på en privat kollektion af misdannede fostre fra dyr, men vi fik desværre ikke lov til at tage nogle billeder, siden det er en privat kollektion.</p>
+		<p>Ikke nok med at universitet har meget at byde, men det stræber også efter bæredygtighed i campus & sætter mål for at mindske antallet af energiforbrug, CO2- emiossioner og affald, lige siden de begyndte at stræbe efter det i 2006, har de oplevet at universitets CO2-udledning blev reduceret med 62% pr. ansat/studerende. Det er også muligt at lære om bæredygtighed og få en uddannelse indenfor det.</p>
+		<p>I privat udstillingen fik vi lov til at se på nogle muterede dyr & fostre, der var alt fra en gris med to hoveder, til en ged som har et øje, det er mærkeligt at se på liggende, men det er vigtigt i forhold til at man kan studere & blive en dyrlæge, et af de ting som de lære at lave, er opererer på dyr & derfor starter de ud med at gøre det på bamser & efter lang tid opererer på døde dyr.</p>
+
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
