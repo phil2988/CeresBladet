@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"> 
+    <title>CB Arkitektur</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>VELUX bringer naturen ind i dit hjem</h2>
+		<h3>Lys, natur og frisk luft. Dette er blot tre af de ting som mange mennesker verden rundt ikke har tid til, i deres hverdage.</h3>
+		<div id="byline">Af Nasser Taqi</div>
+		
+		<p>Duften af dejlig, naturlig luft og lyset fra solen er fantastisk. Dette opleves dog ikke i mange menneskers hverdage, da mennesker bruger op til 90% af deres tid ind døre. Dette er et problem som VELUX, har valgt at tage hånd om. VELUX er en virksomhed, som arbejder med vinduer, som både bringer det naturlige lys ind i hjemmet, men også den naturlige luft. Grunden til at vores store tilstedeværelse indenfor er et problem, er fordi, at indeklimaet i mange hjem er utroligt urent og farligt, i forhold til det udenfor. Et dårligt indeklima kan skabe skimmelsvampe, som er med til at medføre astma, klø, og andre sygdomme samt irritationer på kroppen, som er usunde. Ud over dette, så er det kunstige lys fra lamper heller ikke særlig sundt, i forehold til solens naturlige lys. Derfor designer VELUX vinduer, på skrå- og vandrette planer, som både er gode for indeklimaet, ved at have funktioner der kan lukke luft ind uden at det bliver for koldt, men også at der kan komme meget lys ind i huset, så man ikke skal have tændt sin lampe så ofte. Dette er også en del af deres motto; ”Bringing light to life”.</p>
+		<p>VELUX har nu produceret vinduer i 77 år, og har i løbet af den tid udviklet deres vinduer markant, både inde for design og udseende, som også vægtes højt, men også på hvordan man bedre kan bringe naturen ind i folks hjem.</p>
+		<p> <img src=".\teknologi\Velux_Vindue.JPG" id="AB2"/>
+		<h3>Elektronikken overtager </h3>
+		<p>Vi ved alle sammen at den elektroniske verden er kommet, og elektronik spiller en stor rolle i næsten alle industrier. Det gør den også i VELUX, da deres vinduer kan kobles til en luftfugtighedsmåler eller temperaturmåler, måle temperaturen i et rum, og automatisk åbne eller lukke vinduet alt efter hvad der er indstillet. Dette er utrolig smart, og hjælper meget med at få den gode friske luft, ind i hjemmet, så indeklimaet kan forbedres.</p>
+		<p>I VELUX produceres en stor del af vinduerne ved brug af genanvendelige materialer, så hvis der skulle ske noget med et vindue, vil materialet kunne genbruges. Dette støtter også miljøet, og sørger for at der ikke hele tiden bliver lavet nye vinduer af helt nye materialer. På den måde er VELUX’ vinduer både highend, da der gøres med ud af deres design, de produceres også af materialer som kan genanvendes hvilket er godt for miljøet, og de sørger også for et sundt indeklima, da de hjælper med at udlufte, og oplyse forskellige værelser i folks hjem.</p>
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
