@@ -13,6 +13,11 @@ h3, p{
 	padding-top: 0px;
 }
 
+h4 {
+	margin-bottom: 0px;
+	padding: 10px;
+	padding-top: 0px;
+}
 
 p {
 	font-size: 18px;
@@ -57,7 +62,7 @@ table, th, td {
 	border-top: 1px solid white;
 	outline-color: invert;
 	outline-style: solid;
-	position: absolute;
+	position: initial;
 	z-index: -1;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
@@ -71,7 +76,7 @@ table, th, td {
 }
 
 #AB2 {
-	width: 30%;
+	width: 40%;
 	height: auto;
 	border: 2px solid black;
 	margin: auto;
@@ -116,6 +121,19 @@ table, th, td {
 	font-weight: 400;
 	text-transform: uppercase;
 	padding-left: 10px;
+}
+
+#bund {
+	text-align: bottom;
+	position: static;
+	background-color: white;
+	margin-top: 27%;
+}
+
+#bund p {
+	font-size: 12px;
+	padding-bottom: 3x;
+	margin-bottom: 0px;
 }
 
 /*Navbar undermenu om os*/
