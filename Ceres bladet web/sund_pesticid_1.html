@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>CB Sundhed</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Fremtidens fabelagtige pesticid</h2>
+		
+		<div id="byline">Casper Bang Christensen <br>05-02-2019</div>
+		<div align="center">
+			<img src=".\sundhed\pesticid.PNG" height="100%" id="AB"/>
+			<p id="BT">Foto taget af: Chr. Hansen</p>
+		</div>
+		
+		<h3>Pesticider er farlige. Det ved vi alle sammen, men alligevel bruges det i meget af fødevareproduktionen. Pesticider er uundgåelige. Uden det vil fødevareproduktionen styrte og antallet af fødevareinfektioner forøges. Det bruges endda også af økologiske producenter i form af økologisk pesticid, der egentlig hverken er bedre for mennesker eller miljøet. Men frygt ikke for virksomheden Chr. Hansen, der for nylig er kåret som verdens mest bægerdygtige virksomhed, har løst problemet. De har nemlig produceret en form for pesticid, der fungerer lige så godt som almindeligt pesticid eller endda bedre, men er alligevel mere skånsomt for både miljøet og mennesker.</h3>
+		
+		<p>Pesticider er et problem, der har stor påvirkning på det danske landbrug. Der er i Danmark forbud mod brug af de slemmeste pesticider, men selv for de godkendte og lovlige pesticider, kan der ikke gives garantier for, at de ikke kan forurene grundvandet eller skabe andre problemer. Det vil derfor være fantastisk at finde en løsning til dette langvarige problem, og det har Chr. Hansen gjort.</p>
+		<p>For at finde løsningen har Chr. Hansen været nødt til at kigge meget nært på problemet. Så nært at der endda har været brug for at benytte et mikroskop. Svaret findes nemlig i de helt små geniale organismer, der findes overalt omkring os – nemlig mikroorganismerne. Nogle mikroorganismer er i stand til at udskille små mængder af toksiner, og det er det, der benyttes som pesticid. Den producerede mængde toksin er stor nok til at holde kvaliteten af planterne på en mark højt oppe, men lille nok og nem nok at fjerne, således at det ikke har en sundhedsskadende effekt på mennesker.</p>
+		<p>Chr. Hansen kalder denne metode for ”Bioprotection” og har allerede bevist dets genialitet. Ved en test på to marker, hvoraf den ene er sprøjtet med almindelig pesticid og den anden med Bioprotection, viser det sig, at marken sprøjtet med Bioprotection har klaret sig bedre. Ikke nok med at det er bedre for miljøet og mennesker, men det fungerer også bedre end almindelige pesticider.</p>
+		<p>Der er store konsekvenser ved brug af både almindelige og økologiske pesticider. Disse pesticider er nemlig kraftig sundhedsskadelige, og hvis der er spor af dem tilbage på den endelige fødevare, er der stor risiko for en fødevareforgiftning. Dette er dog ikke det største problem, da pesticiderne på produktionsvaren egentlig bare kan skylles af med vand. Det største problem er nemlig, at der er mulighed for pesticiderne vil komme ned i grundvandet. Hvis mængderne bliver for store, vil vi danskere ikke længere have drikbart vandhanevand.
+		<p>Selv dette problem kan nærmest ses bort fra ved brug af Bioprotection. Bioprotection består af levende mikroorganismer. De kan producere toksiner, der er giftige for andre uønskede organismer, men det er egentlig også giftigt for dem selv. Mikroorganismerne i bioprotektion vil derfor kun producere de helt store mængder toksiner, hvis det er nødvendigt, f.eks. hvis et inficeret insekt har overført en malariaparasit. Når der allerede er store mængder mikroorganismer et sted, er det også generelt svært for andre at stifte plads og gå i vækst. Planterne på en mark kan herved holdes sunde og af høj kvalitet.</p>
+		<p>”Forsøg har vist, at toksinerne er meget mindre sundhedsskadelige for mennesker end almindelige pesticider”, fortæller Daniel Nielsen, En senior tekniker fra Chr. Hansen. Den lille mængde toksin, der ender nede i grundvandet, vil derfor heller ikke skabe de helt store problemer.</p>
+		<p>”Vi har en naturvidenskabelig tilgang til teknologi, og man kan derfor regne med at det fungerer.” Sådan lyder det i hvert fald fra Nielsen. De mikroorganismer, der bruges i Bioprotection, er naturlige og ikke gensplejsede. Det vil sige, at Chr. Hansen er nødt til at fange de mikroorganismer, der findes i naturen. Det er her den naturvidenskabelige metode fremkommer. For at komme frem til de mikroorganismer, der er brugt i Bioprotection, er der nemlig lavet et utælleligt antal forsøg på et utælleligt antal mikroorganismer. Man kan derfor også, ifølge Nielsen, regne med at det fungerer.</p>
+
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>

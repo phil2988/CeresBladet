@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>CB Mode</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Forældet læder</h2>
+		<div id="byline">Lise Holk Kristensen <br>5. februar 2019</div>
+		<div align="center">
+			<img src=".\mode\læder.PNG" height="100%" id="AB"/>
+		</div>
+		
+		<h3>Gennem den seneste tid har flere af de store modehuse som Chanel, Gucci og Versace erklæret at pels og eksotiske lædervare udgår af deres produktion. Som forbruger spekulerer man over, om kvæglæder mon bliver det næste. Modeproducenterne vil i stedet overgå til syntetiske alternativer, der også slæber en række moralske dilemmaer med sig. Tilhører animalske skindprodukter i modeindustrien blot en anden tid? Hvad bliver alternativet til disse i fremtiden?</h3>
+		
+		<p>Læder har eftersigende været brugt siden 5000 f.kr, hvilket gør den til en af menneskehedens tidligste og mest brugbare opfindelser. Læder gjorde os nemlig i stand til at beskytte os mod naturens elementer og har på den måde forbedret livskvaliteten. I den moderne verden er læder fra diverse dyr et biprodukt fra primærproduktion og 50% af verdens læderproduktion bruges til sko. 25% til tøj og 15% til møbler. De resterende 10% bruges i transportmidler.</p>
+		<p>Efter et dyr er blevet slaget renses skindet fra kødet, hvorefter det saltes og køres til garveriet. Her lægges det i bade med calciumhydroxid, der fjerner hår og andre urenheder. Derefter sker selve garvningen, hvor flere kemikalier kan benyttes. 90% af garvningerne verden over foregår med en metode, der blev opfundet i 1858, som indeholder chrom, da det er den billigste og mest effektive metode. Under garvning bliver også benyttet store mængder vand.</p>
+		<p>Faktisk skal der op mod 30.000 liter vand til blot en læderjakke, og da læderproduktion, som så mange andre produktioner indenfor modeindustrien, foregår i dårligt reguleret lande, bliver vandet ofte udledt i floderne og søer. Dette er et stort problem for miljøet lokalt, da chrom er et tungmetal, og som sammen med andre kemikalier kan føre til eutrofiering, som er vandområder med for store mængder næringssalte.</p>
+		<p>En anden garvningsmetode har lejr i den vegetabilske ende, da der her kan benyttes eg eller pil. Der skal dog 20-25% træmasse til læderet, hvilket i sidste ende betyder, at der anvendes større vandmængder end ved chrommetoden, men udleder færre kemikalier. Kvæglæder stammer som et biprodukt fra kødproduktionen, og udleder derfor ikke en større mængde drivhusgasser end fra kødproduktionen selv. Det betyder også, at kødproduktionen har betydning for, hvor meget læder der produceres. Dette kan resultere i en nærmest naturlig afsked til det konventionelle læder.</p>
+		<p>I 1940’erne blev der, for første gang, udviklet kunstig læder lavet af plastik. Produkterne fik fællesbetegnelsen faux leather. Det viste sig at blive en erstatning mange steder, hvor læder førhen blev brugt. I dag kan syntetisk læder fremstilles på flere måder, der i sig selv ikke er gavnlige for miljøet. Sammenlignet med animalsk læder kan materialerne produceres med større ensartethed, og kan nemmere rengøres efter brug. En af ulemperne ved det syntetiske læder er, at det kan slå sprækker, hvilket kan give en forkortet levetid i forhold til læder. Derudover er åndbarheden nedsat, og som bekendt er adskillelsen af plastik også en giftig proces.</p>
+		
+		<img src=".\mode\læder_graf.PNG" height="100%" id="AB"/>
+		<p id="BT">Forskellige tekstilmaterialers miljøpåvirkning fra vugge til grav. <br>Kilde: <a href="https://www.huffingtonpost.com/entry/animal-materials-condemned-in-massive-fashion-industry_us_59bedab0e4b02c642e4a17d2?guccounter=1">Huffingtonpost</a></p>
+		
+		<p>Det mest moderne valg, når det kommer til læder, vil være at gå den vegetabilske vej med eksempelvis hamp fra Hemp Bio Leather. Her benyttes restprodukter fra primær produktion til fremstillingen af et læderlignende produkt, der i sin produktion bruger langt færre kemikalier og vand. Læderet er mere lig kvæglæder end syntetisk læder, og de to lædertyper besidder forskellige fordele og ulemper.</p>
+		<p>Af disse årsager, kan vi prøve at forudse en fremtid, hvor kvæglæder bliver udfaset grundet dets skadelige produktion, og andelen af befolkningen som ikke spiser kød bliver mindre. Derfor vil modehusene stå overfor en ny række valg at træffe, som vil resulterer i en ny generation mode. På Ceres Bladet forudser vi, at vegetabilsk læder vil blive mere og mere populært i takt med, at modehusene anvender mindre traditionelt læder.</p>
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
