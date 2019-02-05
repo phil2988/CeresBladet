@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>CB Sundhed</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Artikel layout 1.html">Artikler 1</a>
+			<a href=".\Artikel layout 2.html">Artikler 2</a>
+			<a href=".\Alle artikler.html">Alle Artikler</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Livet vi lever, kroppen vi efterlader</h2>
+		<h3 id="underrubrik">Sund kost, motion og ingen afhængighed, sådan lyder den normale opskrift for et langt liv. Men hvilken betydning har de forskellige mål, for os selv og vores velvære?</h3>
+		<div id="byline">Jon Dahl Pedersen <br>05-02-2019</div>
+		<br>
+		<div align="center">
+			<img src=".\sundhed\livet.PNG" height="100%" id="AB"/>
+			<p id="BT">Træningogvelvære.dk, komponenterne til et sundt liv er mange og er forskellige fra person til person.</p>
+		</div>
+		
+		<p>Vi tænker i dagligdagen en hel del over sundhed, både vores egen og andres, vi konkurrerer og sammenligner hinanden for at være den mest sunde. Det er blevet en trend at leve sundt, men hvad vil det egentligt sige at leve sundt og hvilke spor sætter det i os?</p>
+		<h4>Kost - Et værk under opbygning</h4>
+		<p>Kost er på mange måder grundstenen for vores tilværelse, og dets formål er at holde os i live. Tilbage til vores stenalder og jægersamfund levede vi af, hvad der var til rådighed, som var grove plater og kød fra vildt, det er så at sige, det som vores kroppe er bygget til at indtage.</p>
+		<p>Tilbage til nutiden, er vores kost blevet erstattet med store mængder stivelse, protein i rigelige mængder og fedt. Som vi sjældent så i datiden og derfor var bygget til at indtage så meget af, som vi kunne. Denne genetiske madlyst er vi ikke kommet af med, og derfor ser vi fedme problemer hos mange i det moderne samfund.</p>
+		<p>Men hvad er så sundt at spise? Skal vi spise det samme som stenaldermanden, som levede til en alder af 37, nok ikke.</p>
+		<p>Kost er under udvikling, vi opdager konstant nyt om kroppen og hvordan vi reagerer og forbruger mad, samt hvad vi egentlig har brug for. Derfor kan det der er en “must eat” i dag, være et tabu om 10 år.</p>
+		<p>Som det er i dag, så viser forskning, at vi skal undgå kød, der er blevet hævet til skyerne som vores eneste kilde til protein. Masser af grøntsagerne har det samme indhold af proteiner, vitaminer og mineraler, samtidigt med at nogle af de farlige fedtstoffer der findes i kødet undgås.</p>
+		<h4>Motion - Fra nødvendighed til luksus</h4>
+		<p>Motion og bevægelse er en naturlig del af vores liv og dagligdag, men formålet med bevægelse har ændret sig stærkt siden stenalderen. Dengang var bevægelse og motion naturligt, man løb, klatrede og svømmede som en del af dagligdagen, og senere i bondesamfundet som en naturlig del af vores arbejde.</p>
+		<p>I det moderne samfund har vi ikke meget motion i vores hverdag, arbejdet foregår nu for det meste siddende eller med finesse. Så motion er gået fra at have været en del af vores liv, til at være et konkret valg. Men for mange kan det være et svært valg, hverdagen er fyldt op med arbejde, pligter og socialisering, så sporten er ofte det som ryger først.</p>
+		<p>Men selv om man vil dyrke sport, så koster det penge, og det er ikke altid midlerne slår til. En anden konsekvens er også at sporten i dag har ændret sig konsekvent. Løb, svømning og klatring findes stadig, men specielt fitness vinder ind som en populær motionskilde. Problemet med fitness er at det træner meget specifikke muskelgrupper, og oftest er op til de trænende med hvad de vil træne.</p>
+		<p>Den bedste sport er den moderate, kontrollerede og naturlige, så selv om fitness i udgangspunktet ikke ligefrem er det bedste, så kan man med fornuft og viden om sine egne grænser også træne godt i et fitnesscenter.</p>
+		<h4>Afhængighed - Sukker, nikotin, alkohol og koffein</h4>
+		<p>Afhængigheder er der mange af, både i vores hverdag og lige for hånden, det er ikke svært at få fat på hverken øl eller cigaretter. De forskellige midler er selvfølgelig ikke lige slemme, men alle kan de påvirke ens liv hårdt og skabe en form for afhængighed, samtidigt med at ens krop udsættes for en lang række af bivirkninger.</p>
+		<p>Sukker er den skjulte afhængighed, vi finder den i det meste, af det vi spiser, både i form af rent hvidt sukker, og som let nedbrydeligt stivelse. De fleste kender det som en hang til noget sødt en gang i mellem, men jo mere man tillader sig at spise det lette sukker, jo mere har mam lyst til det. Af konsekvenser er det ikke kun tænderne det rammer, men også ens blodsukker kommer udefra store svingninger som følge af sukker indtaget, og som følge stiger risikoen for type 2 diabetes.</p>
+		<p>Nikotin er den som de fleste anerkender som en reel afhængighed, og findes i mange former, f.eks. cigaretter og snus. Nikotinen går til hjernen og beroligede, og store mængde oplever man en rus, rusen og velbehaget gør oftest at man spiser mindre og får det roligere. Men det har også konsekvenser. Tjæren som oftest følger med produkterne, sætter sig i lungerne og forværre kraftigt lungernes effektivitet, både åndedræt og kondi tager et stort dyk, dertil stiger risikoen for lungekræft betydeligt. Nikotin er en svær afhængighed hvis man først er inde i det, for den kan føles meget naturlig, lige tage en smøg mens man går en tur, eller har en pause fra noget. Det kan hurtigt komme til at fylde meget for ens identitet og rolle, men den er vigtig at afholde sig fra.</p>
+		<p>Alkohol er den mest accepterede afhængighed i det danske samfund, vi har det fint med at tage en øl til aftensmaden, eller slippe alle tøjler og drikke til fester. Under indflydelse af alkohol slår hjernen delvist fra, og dømmekraften ryger ud ad vinduet, for mange kan det være befriende, men giver samtidigt stærke moralske tømmermænd dagen efter. Derudover udsættes leveren for en hård omgang, idet at den skal processere alkoholen i blodet, og med for meget at lave overfor kort tid er leveren arbejde kraftigt nedsat, samtidigt med at risikoen for at den slå helt fra stiger. Alkohol er en del af vores samfund, men en det er vigtigt at kun drikke med mådehold til festen, og måske sige helt fra til den daglige øl eller glas vin.</p>
+		<p>Koffein er også en af de mere skjulte, den er en fast del af hverdagen for mange og kan være en hjælp til at komme igennem dagen, men er stærkt vanedannende og har en række bivirkninger. Når man indtager koffein, skaber stoffet den illusion at hjernen er frisk og udhvilet, det kan hjælpe en til at holde sig vågen eller koncentrere sig, men skaber samtidigt problemer med at falde ned. Søvn specielt kommer under problemer hvis indtagelsen af koffein bliver for stor, og indtagelsen af koffein for at dæmpe ens træthed i dagtimerne, kan få store konsekvenser givet nok tid. Indtagelse af koffein, kan i det lange løb føre til udbrændthed og humørsvingninger, som trætheden indhenter en.</p>
+		<h4>Sundhed, ikke kun kroppen</h4>
+		<p>Vores liv er dog ikke kun målt i år og kroppens stand, en vigtig del er også hvordan vi har det, at vi er glade og lykkelige. Så det er selvfølgelig sundt at skifte, at leve lidt sundere, men det er også vigtigt at man ikke tage et stort skift i ens liv, eller fjerner de ting der gør en glad. Det kan være en udfordring, men målet er at leve sundt og lykkeligt, en udfordring som kan tage hele livet.</p>
+		
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>

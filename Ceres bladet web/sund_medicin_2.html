@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"> 
+    <title>CB Sundhed</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Medicin gennem tiden, Museion og det indsamlede menneske</h2>
+		<div id="byline">Jon Dahl Pedersen <br>05-02-2019</div>
+		
+		<p>Videnskaben har taget store spring gennem de sidste tusind år, men intet felt har flyttet sig så meget som det medicinske. Vi er gået fra pulveriseret mumiepulver, til åreladninger, sterilisering og nu til genteknologi. Udviklingen springer grotesk i øjnene på en, de første mange trin ser brutale, voldsomme og umenneskelige ud. En guided tur på Medical Museion formidler denne udvikling, og med et besøg på udstillingen ”Det Indsamlede Menneske” illustreres den markante forskel til i dag.</p>
+		<h4>Den første medicin</h4>
+		<p>Knirkende går dørene op, en samling af tætpakkede rum ligger side om side i det gamle hospital og første danske uddannelse for læger. Præparater, udstyr og fremgangsmetoder er stillet pænt frem i glasmontre, og hvert rum fortæller sin egen lille bid af den danske medicinalhistorie.</p>
+		<p>Den universitetsstuderende guide, Ane Würtz Lauridsen, fortæller engageret om den første lægevidenskabsteori til hvorfor vi bliver syge, fulgt af hævede øjenbryn og hovedrysten fra de besøgende. Miasma, betydende ”dårlig lugt”, var den første teori til hvordan sygdom smittede og spredte sig. Datidens læger og medicinske kloge hoveder, kædede den dårlig lugt, som fulgte f.eks. råddenskab, og sygdom sammen. Denne tanke om sygdom og smitte, fandt f.eks. sted under den sorte død, her gik pestlægerne med ”næb” fyldt med røgelse og genstande som lugtede godt, som skulle beskytte lægen fra pesten.</p>
+		<p>Ane forklarer at hvad man gjorde den gang, var i bedste mening og at man reelt troede man hjalp ens medmennesker. Hun tilføjer at den store årsag til de mytiske tankegange og skadelige behandlinger, kom fra manglen på viden. Det var ikke tilladt at kigger i mennesker efter deres død, sjælen og dermed kroppen var hellig, og gjorde det til en forbrydelse at skærer et menneske op. Man praktiserede derfor medicin udefra de få tekster fra oldtiden, og de få bidder af viden der opstod.</p>
+		<h4>Blod, slim og galde – en blodig affære</h4>
+		<p>I det næste rum dominerer fire farvede søjler, hvert med et element, årstid, alder, humør og en speciel væskeform i kroppen. Ane fortæller nu om den næste store teori inde for læge videnskaben, og forklarer samtidigt at grænsen mellem medicin, alkymi og overtro bandt tæt sammen. Smil pryder flere af de besøgendes ansigter, som Ane fortsat fortæller om balancen mellem de fire væsker, blod, slim, samt sort og gul galde.</p>
+		<p>I dette medicinske trin begyndte man at tro, at sygdomme kom som følge af ubalance mellem kroppens væsker. Løsningen var åreladninger hvis lægen mente man havde for meget blod, opkastningsmiddel hvis man havde for meget guld galde, og afføringsmidler hvis man havde for meget sort galde. Ofte hjalp det ikke meget, og fratagelse af blod kunne vise sig at være fatalt for patienter.</p>
+		<p>Idet at lægevidenskaben mente at miasma og balanceteorien var årsagen til sygdomme, og idet at ingen kunne forestille sig det var små organismer, havde bakterierne frit spil. Ingen læge eller udøvende steriliserede deres værktøjer, hverken før eller efter en operation, og flere brugte de samme instrumenter til flere patienter på en dag. Utroligt mange døde af bakteriesmitte fra værktøjer, specielt gravide kvinder som lige havde født. Det var så slemt at dødeligheden blandt gravide, var større på hospitalet end den var på landet.</p>
+		<p>Man opdagede ikke direkte bakterier, men man oplevede senere, at ved at skifte instrumenter og sterilisere dem før og efter brug, at dødelighedsraten faldt betragteligt.</p>
+		<h4>Tiden går, etik består</h4>
+		<p>Som den sidste del af rundvisningen viser Ane os rundt i udstillingen ”det indsamlede menneske”, her står glas kar med præserverede fostre og synligt misdannede dele fra menneskekroppen. Udstillingen er samlet gennem de sidste tre hundrede år, og har alt fra skeletter, organer og hele fostre. Dog er de alle misdannede eller på anden vis afvigende fra det normale.</p>
+		 
+		<img src=".\sundhed\medicin.PNG" id="AB"/>
+		<p id="BT">Foto(Anton Bugge) Ane Würtz Lauridsen fortæller om etikken ved det indsamlede menneske </p>
+		
+		<p>Ane fortæller at det hænger sammen med det næsten hellige syn man havde på menneskekroppen. Så i lang tid brugte man anatomi tegninger fra aber til forstå mennesket, men behovet for at forstå den menneskelige krop bestod. Problemet blev delvist løst via hospitalet, her fandt de fleste fødsler i København sted, og det var også her borgere kom med forskellige sygdomme og døde. Lægestudiet lavede nu den regel at lig som ikke var blevet hentet inde for 3 dage, kunne blive brugt til undervisning. Derfor lærte læger og de studerende om kroppen fra syge eller dårlige, og ofte rådne kroppe. Det var fra de samme kroppe af de fleste præparater blev taget og præserveret.</p>
+		<p>Hvad der står tilbage, er en udstilling som mildt sagt kan virke voldsom. Synet på en sådan samling har ændret sig markant i nyere tid, i dag vil det etisk være en forbrydelse at tage fostre og lig, for at udstille, idet at de ikke selv kan tage den beslutning. </p>
+		<p>Men udstillingen har vi stadig, som gør os klogere på den tid og de udfordringer vi er gået igennem. Både den, og hele Museion, giver os et blik på hvor langt vi er kommet, hvor meget bedre vi er blevet gennem tiden. Det rejser dog også spørgsmålet. Hvad bliver det næste?</p>
+		<p></p>
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>

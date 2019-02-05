@@ -68,7 +68,7 @@ table, th, td {
 }
 
 #AB {
-	width: 95%;
+	width: 90%;
 	height: auto;
 	border: 2px solid black;
 	margin: auto;
@@ -89,12 +89,21 @@ table, th, td {
 	border: 2px solid black;
 	margin: auto;
 	margin-bottom: 0px;
+	margin: 10px;
+}
+
+#AB4 {
+	border: 2px solid black;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 0px;
+	margin: 10px;
 }
 
 #BT {
 	font-family: italic;
 	font-size: 10pt;
-	width: 95%;
+	width: 90%;
 	margin-top: 0px;
 }
 
@@ -105,6 +114,35 @@ table, th, td {
 	margin-top: 0px;
 	text-align: right;
 }
+
+#BT3 {
+	font-family: italic;
+	font-size: 10pt;
+	width: 55%;
+	margin-top: 0px;
+}
+
+#BT4 {
+	font-family: italic;
+	font-size: 10pt;
+	width: 65%;
+	margin-top: 0px;
+}
+
+#BT5 {
+	font-family: italic;
+	font-size: 10pt;
+	width: 80%;
+	margin-top: 0px;
+}
+
+#BT6 {
+	font-family: italic;
+	font-size: 10pt;
+	width: 50%;
+	margin-top: 0px;
+}
+
 
 #Logo {
 	max-width: 15%;
@@ -125,7 +163,7 @@ table, th, td {
 	font-size: 12px;
 	font-weight: 400;
 	text-transform: uppercase;
-	padding-left: 15px;
+	padding-left: 5%;
 }
 
 #bund {
@@ -141,13 +179,17 @@ table, th, td {
 	margin-bottom: 0px;
 }
 
+#underrubrik {
+	margin-bottom: 0;
+}
+
 ul {
 	padding-left: 20px;
 	font-size: 18px;
 }
 
 /*Navbar undermenu om os*/
-ul #undermenu {
+#undermenu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
