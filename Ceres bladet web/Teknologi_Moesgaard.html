@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"> 
+    <title>CB Teknologi</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Har Moesgaard Museum nøglen til fremtidens undervisning af børn?</h2>
+		<div id="byline">Peter Teglhus Kristiansen<br>03-02-2019</div>
+		<p>Moesgaard Museum har gennem perioden 2012- 2016 kreeret et nyt og moderne museum. Når man hører ordet ”museum” kan man nemt komme til at tænke på tidligere oplevelser, hvor man har trasket gennem en mørk og gammel bygning og har betalt overpris for at stå og glo på nogle gamle og slidte udstillinger. Dette er ikke længere tilfældet på Moesgaard Museum. Hvis man i dag tager på Moesgaard Museum, vil man hurtigt opdage, at noget her ikke er som på andre museer.</p>
+		<h4>Fremtidens museum</h4>
+		<p>Moesgaard har fået et nyt ”Moesgaard Museum”. Dette betyder ikke, at de har fået nye udstillingsgenstande i stor stil. Hvis der var blevet fundet en masse nye ”gamle” pilespidser, som nu også kunne ses på Moesgaard Museum, ville der ikke være noget specielt over det. <br><br> </p>
+		<p style="text-align: CENTER; float: right; width: 300px; height: auto"><img src=".\Teknologi\Roed_Mand2.PNG" width="300px" height="auto"/>Her skyder og dræber en dansk gymnasieelev en forhistorisk urokse med en tværpil. Foto: Peter Teglhus Kristianse</p>
+
+	    <p>Det Moesgaard Museum har gjort er, at de har taget alle de gamle udstillinger og nu formidlet dem på en ny og spændende måde. Alle de gamle udstillinger findes stadig, men de bliver bare fremvist på en anden måde. Et eksempel på denne nye måde at udstille museumsgenstande på er, at i stedet for at se på nogle gamle pilespidser i et mørkt rum og læse om dem på en lille tekstboks ved siden af, kan man nu selv prøve at ”skyde” med dem. Her kan man skyde med en rigtig pil, som fortsætter ind i en virtuel verden via en skærm. <br><br> 
+		
+		<h4>Fremtidens læringsmetoder</h4>
+		<p>Efter det virtuelle drab bliver skytten vist en sejers-skærm. På skærmen står der, hvad skytten har dræbt, og hvilken pil skytten har brugt. Efter man har læst informationen om jagten, kan man vælge en ny pil ved tryk på en knap og derefter skyde, dræbe og lære om et nyt dyr. <br><br>
+		   Denne udstilling er et glimrende eksempel på, hvordan Moesgaard Museum bruger digital interaktion og teknologi til at fremvise fortiden.<br><br>
+		   En anden udstilling på museet, som også benytter sig af digital interaktion, er strategibordet. Denne udstilling består, ved første øjekast, ikke af mere end et træbord med nogle figurerer på. Men ved nærmere inspektion, opdager man, at der sidder en projektør gemt i loftet. Denne projektør kaster en animation ned på bordet, som primært består af små prikker, som indikerer militærenheder, som er på vej i kamp. Det er derefter gæstens job at fungere som en general, som skal bestemme, hvilken kampformation, der er bedst egnet til det scenarie, man bliver stillet overfor. Gæsten vælger forskellige formationer med figurerne ved at stille dem forskellige steder på bordet. Efter slaget bliver gæsten igen vist informationer, denne gang om slaget.</p>
+		<p style="text-align: CENTER; float: right; width: 300px; height: auto; padding-top: 40px"><img src=".\Teknologi\Roed_Mand.PNG" width="300px" height="auto"/>Denne gymnasieelev er lige blevet forfremmet fra stenalderjæger til general. Foto: Peter Teglhus Kristianse</p>
+		<h4>Fremtidens læringsmetoder</h4>
+		<p>Det er alment kendt, at folk lærer bedst, når de står med ting i hænderne og er aktive frem for at læse bøger. Før i tiden foregik undervisning primært i klasseværelset. Men som vi skrider frem i tiden, indser vi som et samfund potentialet i en mere ”hands on” undervisning. Det kan godt tænkes, at det er en fordel at tage en skoleklasse med på Moesgaard Museum i et forsøg på at lære børnene om f.eks. vikingetiden, som et alternativ til bøger og mere traditionelle museer. Denne mere aktive og underholdende læringsform tilbyder en glimrende og varieret læringsmetode for alle aldre. Man kan nemt forestille sig en skoleklasses udflugt til et mere traditionelt og ”kedeligt” museum. Børnene/de unge kommer ind på museet, opdager hvor kedeligt det er, og bevæger sig døsigt gennem resten af museet med hovederne i deres mobiltelefoner og lærer derfor intet! Dette ville ikke være tilfældet på Moesgaard Museum, da de flotte og interaktive udstillinger tilbyder en god, alsidig oplevelse, som består af en blanding af sjov og læring.</p>	
+		<p></p>
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
