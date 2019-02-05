@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"> 
+    <title>CB Mode</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Overvældende oplevelse af Revolver</h2>
+		<div id="byline">Amalie Gregers Skødt <br>05-02-2019</div>
+		
+		<h4>Ankomsten</h4>
+		<p>Klokken 10:55 ankommer vi til revolvermessen, blot en time efter dørende blev lukket op til messen, som i dag synger på sidste vers for denne gang, her d. 1. februar. Lige inden for dørende står mennesker klar til at tage imod jakker og bagage fra københavnere, studerende, opkøbere, influensers og modeentusiaster. Der flyder fra rummet en jævn strøm af mennesker forbi indsnævringen ind til der hvor den rigtige messe begynder. Ved indsnævringen til dette finder alle menneskerne deres mobiler frem og åbner deres Revolver app, hvor billetten vises på. Bib, bib, bib, lyder det hele tiden og den røde skanner som skanner gæsternes app og som blinker rødt for hvert bib. Menneskemængden strømmer nu ind på messen hvor de 100 vis af boder venter på at blive set.</p>
+		
+		<img src=".\mode\folk.JPG" id="AB2"/>
+		
+		
+		<p> </p>
+		
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>CB Sundhed</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Produktionen af oksekød skader miljøet!</h2>
+		<div id="byline" style="padding-left: 1%;">Hudayfa Hassan Ige Waberi <br>05-02-2019</div>
+		
+		<h3>Produktionen af oksekød er en af de store årsager til at landbrugssektoren bruger så meget energi, og derfor forsøger man at udvikle kunstigt kød. Ved at fremstille kunstigt kød, kan man skåne miljøet og spare en masse energi. Derudover kan vi også mindske produktionen af oksekød, og på den måde mindske udledningen af drivhusgasser.</h3>
+		
+		<div align="center">
+			<img src=".\sundhed\cirkel graf.JPG" id="AB2"/>
+		</div>
+		
+		<p>Vi lever i en tid, hvor vi er begyndt at bekymre os for drivhuseffekten. Størstedelen af udledningen af drivhusgasser i Danmark, kommer for det meste fra tre forskellige sektorer. De tre sektorer er energiproduktion, landbrug og transport. I 2013 stod de her tre sektorer for mere end ¾ af den samlede drivhusgas-udledning. Energi står for 37% af udledningen, mens landbrug står for 22% af drivhusgasudledningen i Danmark, og det er primært på grund af dyrenes fordøjelse og fra anvendelse af kvælstofholdige gødning. Det er de menneskelige aktiviteter der er skyld i den globale opvarmning, og det kan føre til klimaforandringer der kan føre til ekstremt vejr såsom tørke, og så kan det også føre til havstigninger.</p>
+		<p>Det er faktisk produktionen af oksekød der gør mest skade på miljøet.  Ved produktionen for oksekød bruges mange resurser, herunder får man brug for meget land, gødning og vand. Der bliver brugt flere resurser på køer end andre dyr, såsom kyllinger, grise og lam. I produktionen af oksekød bruger man cirka 28 gange mere land, 6 gange mere gødning og 11 gange mere vand end ved grise og kyllinger. Der er en masse energi der bliver brugt, og derfor er der en masse CO2 der bliver udledt. Man skal cirka køre 140 kilometer i en bil for at udlede lige så meget CO2 som 1 kg oksekød.</p>
+		<h4>En fremtid med kunstig bøf</h4>
+		<p>Man er dog i gang med at undersøge om det er muligt at producere kød i et laboratorie. Det kød man er i gang med at udvikle, er noget man kalder for stamcellekød. Man får det her kunstige kød ved at tage en stamcelle og derefter dyrker man cellen. Man dyrker cellerne ved at tilføje en nærende væske i en gæringstank og derefter lader man cellerne vokse på stilladser, hvor de udvikles til muskelceller. Når man så har muskelcellerne, bliver de kunstige muskler trænet ved hjælp af elektricitet og på den måde får man også mere protein. Det kød man får ud af processen, bliver kørt igennem en kødhakker, og der tilsættes de nødvendige smagsstoffer, jern og vitaminer. Det er dog kun muligt i dag at lave strukturløst kød, det vil sige at det kan bruges til pølser og til burgerbøffer.</p>
+		<p>Ved at producere stamcellekød, vil man kunne gøre så en masse dyr ikke kommer til skade, specielt når det kommer til deres levevilkår. Man tror dog at der kommer til at gå noget tid før stamcellekød bliver accepteret bland populationen, da de fleste mennesker holder sig til det naturlige.</p>
+		<p>Derudover kan det komme til at påvirke en masse mennesker. Hvad kommer der til at ske med de landmænd der producere kødet, og bearbejder det på fabrikker. Vil det være muligt at producere kunstigt kød til en pris, hvor fattige mennesker også vil være i stand til at købe det.</p>
+		<h4>En dyr produktion</h4>
+		<p>I 2013 var der blevet produceret en bøf ved hjælp af stamcellekød, og for at producere den ene bøf var der blevet brugt omkring 300.000 amerikanske dollars. Siden da er prisen faldet markant, da man i tidlig 2018 fik fremstillet en bøf der kostede omkring de 600 amerikanske dollars, bøffen blev produceret af ”Memphis Meats”. Med den hastighed af prisændring, vil det kunne betyde at stamcellekød muligvis vil kunne konkurrer imod kødindustrien om nogle år. Der er dog nogle fra kødindustrien der mener at man ikke skal markedsføre stamcellekød som normalt kød, da det er blevet produceret i laboratorier. </p>
+		<p>I bund og grund er vores problem at vi skader vores miljø, og det kan have vanskelige konsekvenser. Det er dog kun et problem vi kan løse sammen da vi alle deler denne jord. Drivgasserne kommer ikke kun til at påvirke nogle af os, men det kommer til at påvirke os alle og den fremtid vi laver. </p>
+		
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
