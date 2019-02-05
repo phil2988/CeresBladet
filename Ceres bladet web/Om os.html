@@ -12,36 +12,37 @@
 		<a href=".\Main.html"><img src="logo.PNG" id="Logo"/></a>
 	</div>
 		<div id="menu">
-				<button onclick="myFunction()" class="dropbtn" >Menu</button>
-				<div id="myDropdown" class="dropdown-content">
-					<strong><a href=".\Main.html" >Forside</a>
-					<a href=".\Artikel layout 1.html">Artikler 1</a>
-					<a href=".\Artikel layout 2.html">Artikler 2</a>
-					<a href=".\Alle artikler.html">Alle Artikler</a>
-					<a href=".\Om os.html">Om Os</a></strong>
-				</div>
-			<br>
-			
-			<script> /*Dropdown*/
-				/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-				function myFunction() {
-				  document.getElementById("myDropdown").classList.toggle("show");
-				}
-				// Close the dropdown menu if the user clicks outside of it
-				window.onclick = function(event) {
-				  if (!event.target.matches('.dropbtn')) {
-					var dropdowns = document.getElementsByClassName("dropdown-content");
-					var i;
-					for (i = 0; i < dropdowns.length; i++) {
-					  var openDropdown = dropdowns[i];
-					  if (openDropdown.classList.contains('show')) {
-						openDropdown.classList.remove('show');
-					  }
-					}
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
 				  }
 				}
-			</script>
-		<br>
+			  }
+			}
+		</script>
 		<!-- Undermenu -->
 		<ul id="undermenu">
 			<li><a href="Om os.html" class="active">Om os</a></li>
@@ -64,9 +65,11 @@
 		<!-- Et tekstfelt -->
 			<tr>
 				<td>
+					<br>
+					<h2>Leder</h2>
 					<h2 style="text-align: left;">Over 50.000 borgere tvinger Folketinget til at diskutere ny og bedre klimalov</h2>
 					<p id="byline" style="padding-left: 1%;">05-02-2019</p>
-					<img src=".\leder fakta.PNG" height="100%" id="gruppe"/>
+					<img src=".\leder fakta.PNG" height="600" id="gruppe" style="margin-left: 1%;"/>
 					<p>’Dansk klimalov nu!’ sådan lyder opråbet fra de, i skrivende stund, 54.840 personer, som har skrevet under på borgerforslaget fra 92-gruppens, et samarbejde mellem 24 danske miljø- og udviklingsorganisationer. Danmark, som er langt bagud med klimaindsatsen i forhold til hvad regeringen lover, har brug for reformering på klimaområdet. Energi-, forsynings- og klimaminister Lars Chr. Lilleholt (V) udtaler, at man med de aftalte og planlagte klimainitiativer først vil have reel nuludledning af CO2-ækvivalenter i 2101, som regeringen har forpligtet sig til at realisere i 2050. Oppositionen har kort efter verificeringen af borgerforslaget meldt ud, at den støtter den nye klimalov fuldt ud. Da vi om kort går et folketingsvalg i møde, kunne man spørge sig selv, om partiernes reaktion til borgerforslaget kunne have nogen effekt på befolkningens stemme til valget. Det som står helt klart er, at samfundet er utilfredse med den nuværende klimaindsats fra regeringens side. Deres indsats og mening omkring klimaet ses tydeligt med i de hævede afgifter på elbiler i 2015, som satte et klart aftagende linjestykke på grafen over salgshastigheden af elbiler. Et åbenlyst punkt på borgerforslaget er, at klimahensyn skal integreres i andre politikker, så fejl ikke bliver gentaget. I flere udviklings- og klimaorganisationer, samt CB, bliver punkt 5 på borgerforslaget omkring større satsning på udvikling af grønne løsninger positivt modtaget. Danmark er allerede et af foregangslandene indenfor bæredygtig udvikling og løsning af klimaproblemerne. At være frontnation er bare ikke nok ifølge borgerforslaget. Danmark skal være drivkraft i international klimapolitik, altså skal vi ikke kun kigge ind ad, men også ud ad, hvori klima skal være hovedprioriteterne i Danmarks udenrigs-, udviklings- og EU-politik.</p>
 					<p>At finde på løsningerne til klimaproblemerne er en fælles opgave, som Danmark ikke bærer alene. Derfor er borgerforslaget et nødvendigt tiltag, som ikke kan undgås, før eller siden skal regeringen tage et aktivt valg. Det er vores hverv som medie at bidrage til omdannelsen mod en grønnere verden ved at udbrede kendskabet til global opvarmning og mulighederne for omstilling. Ceres Bladet støtter derfor op om den nye klimalov.</p>
 					<p id="byline" style="padding-left: 1%;">TL, MN, MQ og IH</p>

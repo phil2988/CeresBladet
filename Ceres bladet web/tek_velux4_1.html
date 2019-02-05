@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>CB Teknologi</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>VELUX vil sikre dit barns fremtid</h2>
+		<h3>VELUX er en verdensomspændende virksomhed, som med deres kampagne ”The Indoor Generation” har valgt at kigge fremad og fokusere på bagsiden af menneskets måde at leve indendørs. Ved hjælp af en kort film sætter VELUX fokus på virksomhedens principper og grundlag ved hjælp af videnskabelige fakta.</h3>
+		<div id="byline" style="padding-left: 1%;">Amalie Vahl-Jensen <br>05-02-2019</div>
+		<div align="center">
+			<img src=".\teknologi\tek_velux_3.JPG" height="100%" id="AB"/>
+			<p id="BT">Velux.dk</p>
+		</div>
+		
+		<p>Ovenlysvinduesproducenten VELUX fortæller selv, at de i mere end 75 år har arbejdet med at forbedre folks livskvalitet. VELUX vil sørge for, at det bliver muligt, at alle boliger og arbejdspladser kan få nok lys og frisk luft i det daglige. De tilføjer dog også, at der lang vej endnu, før vi som forbruger forstår, at lys og frisk luft ikke kun er et ”nice to have” men et ”need to have”.</p>
+		<p style="margin-bottom: 0%;">Se videoen og få flere informationer fra VELUX i linket:</p>
+		<p><a href="https://www.velux.com/indoorgeneration">https://www.velux.com/indoorgeneration</a></p>
+		
+		<p>I videoen lærer vi, at den luft, der er inde i vores hjem, er 5 gange så meget forurenet som luften udenfor samt, at den forurenede, dårlige luft øger risikoen med op til 40 % for at udvikle astma og allergier. Især vores børn bliver ramt af sygdomme, indlæringsproblemer, søvnbesvær, hovedpine og tristhed forårsaget af dårligt indeklima. Børn er særligt sårbare over for disse ting, fordi deres lunger og hjerner ikke er fuldt udviklede. Børneværelset anses ofte for at være det rum i hjemmet, der indeholder flest forurenende gasser. Det kan bl.a. skyldes legetøj, der bliver lavet af forskellige, giftige plastiktyper, og den øgede udledning af CO2.</p>
+		<p>VELUX har lavet en lille liste af tips til at mindske forureningen i hjemmet og dermed give din familie den rene luft som de fortjener.</p>
+		<p><strong>Første</strong> ting på listen er udluftning. Når der bliver luftet ud, skal det gerne ske med flere vinduer ad gangen, så der kommer et godt ”air flow” igennem hjemmet. Det optimale vil være at lufte ud 3-4 gange i døgnet af mindst 10 minutter per gang. På børneværelset anbefales det at lufte ud om morgenen og inden sengetid.</p>
+		<p>Et <strong>Anden</strong> vigtigt faktum er plastik. Plastik findes i meget legetøj, og ikke alt plastik er lige godt. Når plastik varmes op, kan det frigøre en række giftige gasser. Det anbefales derfor at holde plastik væk fra direkte sollys. Undlad også af efterlade det på gulvet, hvis huset har gulvvarme.</p>
+		<p>Det <strong>tredje</strong> og sidste tip er at tørre så meget tøj som muligt udendørs. 65 % af alle europæere tørrer deres tøj indendørs mindst en gang om ugen, og det er en dårlig vane. Når vi tørrer vores tøj, udskilles der fugt, hvilket kan føre til skadelig mug og skimmel i hjemmet. Rådet fra VELUX er dermed at tørre tøjet et andet sted fx udendørs, hvis du kan.  Af samme grunde kan du sørge for, at dit badeværelse er ordentligt ventileret.</p>
+		<p>VELUX afrunder deres kampagne med at fortælle, at de ikke er alene om at fokusere på ”The Indoor Generation”, og at de samarbejder med en række andre globale markedsledere inden for byggeri- og anlægsbranchen for at skabe de bedst mulige boliger til os som forbruger. VELUX tilføjer, at de ikke har ambitioner om, at deres løsning skal kunne løse alle “Indoor Generations”- problemer, men de kan hjælpe med at vise den bedste vej frem.</p>
+		<p>We're the indoor generation. The way our story ends is up to you.</p>
+		<img src=".\teknologi\velux_4.PNG" height="100%" id="AB" style="border: 0;"/>
+		<p id="byline" style="padding-left: 1%;">Velux's motto</p>
+		
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
