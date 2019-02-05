@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <title>CB Teknologi</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Artikel layout 1.html">Artikler 1</a>
+			<a href=".\Artikel layout 2.html">Artikler 2</a>
+			<a href=".\Alle artikler.html">Alle Artikler</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Velux’s udvikling af det gode indeklima.</h2>
+		<div id="byline">Philip Krøyer Kristensen <br> 05-02-2019</div>
+		<br>
+		<div align="center">
+			<img src=".\teknologi\tek_velux_2.JPG" height="100%" id="AB"/>
+			<p id="BT">Med Velux’s Integra system, kan ovenlysvinduer monteres utilgængelige steder, så mere sollys kan lukkes ind i rummet. Billede fra Velux.dk</p>
+		</div>
+		
+		<p>Velux har gennem mere end 50 år været kendt for deres enestående ovenlysvindue. Udelukkende på grund af Velux’s grundlægger Villum Kann Rasmussen’s opgør med 1920’ernes daværende tagvinduer, som var lavet af støbejern og som sjældent viste sig at være tætte. Så i et bygningsprojekt til en skole, satte han sig for at udvikle et godt tagvindue, så det skulle være tæt. Kann Rasmussen havde målet at hans tagvindue skulle være minimum lige så godt som et facadevindue, således at loftsetagen på skolen kunne bruges på samme måde og som underetagen. </p>
+		<p>Kann Rasmussen løste problemet i 1942 ved at lave et vindue af træ, belagt med metal for at beskytte mod det aggressive danske klima. Dette vindue var meget bedre end det traditionelle støbejerns tagvindue, ikke nok med at være tæt, kunne det laves meget større og lukkede derfor mere lys ind. Dertil kunne vinduet åbnes og lukkes, hvorefter de forblev tæt. Dette gjorde at med sådan et vindue kunne man bruge loftet til dagligt brug, for nu havde man lys og frisk luft på loftet. Og under 2.verdenkrig, hvor pladsen var trang, gjorde Velux vinduet det muligt at bruge den plads, der ellers havde ligget hen. </p>
+		<p>Denne første version af Velux vinduet, havde ikke det karakteristiske vippepunkt på midten eller håndtaget i toppen, som mange kender det i dag. Denne type tagvindue, kaldet GGL-ovenlysvinduet eller ”Gennemgående Gribe-Liste”. Blev først introduceret i 1968. Hertil havde Kann Rasmussen og hans voksende forretning, udviklet det revolutionerende vippehængsel eller ”pivothængsel”, der gjorde de muligt at vippe vinduet om midten. Dette hængsel er stadig den dag i dag, set som et af de vigtigste elementer i Velux vinduet, samtidig med at dette hængsel og dets funktioner udgør en stor del af det Velux er kendt for, rundt i hele verdenen. </p>
+		<p>Med GGL-modellen af ovenlysvinduet, kom flere funktioner, som har gjort livet både nemmere og bedre for mange rundt omkring i verdenen. For nu kunne vinduet åbnes halvt med en ventilationsklap, så man kunne få frisk luft selv, hvis man ikke var hjemme, uden at blive indbydende for tyven. </p>
+		<p>2000’erne bragte meget med sig. Også Velux Integra. Velux Integra gjorde det muligt at elektrisk åbne og lukke for Velux ovenlysvinduer. Dette gjorde en byggestil nemmere og smartere, nu kunne ovenlysvinduerne monteres i taget af høje atriummer, og styres fra bunden, så atriummer nu også kunne nyde den friske luft og det naturlige lys fra loftet.</p>
+		<p>Gennem årende har dette system udviklet sig meget. Med ideen om et ”det smarte hjem”, hvor ideen er at meget af hjemmet skal kunne tænke og udføre ting selv. Alt fra køleskabet der fortæller hvad der mangler, og selv bestiller nyt. Til lysene i loftet, der følger dig rundt i hjemmet. Med sådanne systemer har Velux formået at forbedre indeklimaet, ved automatisk at kunne åbne og lukke ovenlysvinduerne, når f.eks. når CO2 indholdet, luftfugtigheden eller temperaturen bliver for høj, så åbner vinduet automatisk, og lukker så igen når disse er på et niveau anset som værende sundt eller gavnende, for helbredet. Eller om morgenen hvor vinduet selv kan trække skodderne fra, så man bliver vækket af sollyset. Systemet er endda smart nok til at ændre tidspunkterne hvorpå de åbner, afhængigt af vind og vejr ved at hente data om vejret på nettet, og så ændre åbningstidspunktet.</p>
+		<p>Og på den måde viser Velux at de igen og igen formår at videreudvikle smartere og bedre produkter, der gør livet bedre og nemmere for forbrugeren.</p>
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
