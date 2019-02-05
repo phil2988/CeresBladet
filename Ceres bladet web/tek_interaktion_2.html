@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"> 
+    <title>CB Teknologi</title>
+	<link href="style2.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+	<!-- Toppen -->
+	<div id="top">
+		<img src="logo.PNG" height="100" id="Logo"/>
+	</div>
+	<div id="menu">
+		<!-- <div class="dropdown"> -->
+		<button onclick="myFunction()" class="dropbtn" >Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<strong><a href=".\Main.html" >Forside</a>
+			<a href=".\Teknologi.html">Teknologi</a>
+			<a href=".\Arkitektur.html">Arkitektur</a>
+			<a href=".\Sundhed.html">Sundhed</a>
+			<a href=".\Mode.html">Mode</a>
+			<a href=".\Om os.html">Om Os</a></strong>
+		</div>
+		<br>
+		
+		<script> /*Dropdown*/
+			/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+			// Close the dropdown menu if the user clicks outside of it
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+				  var openDropdown = dropdowns[i];
+				  if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				  }
+				}
+			  }
+			}
+		</script>
+	</div>
+	
+	<div id="mid">
+		<h2>Interaktionsdesignere tænker ikke over bæredygtighed</h2>
+		<h3>Mange steder bliver brugen af interaktionsdesign brugt til at styrke installationer. De kan blive lavet til en form for spil, gøre det mere virkeligt eller generelt bare øge selve oplevelsen. Men brugen af disse designs kan måske gå ud over klimaet. Alligevel spiller dette ikke en særlig stor rolle ifølge interationsdesignere samt de steder, der bruger disse installationer. Men burde det?</h3>
+		
+		<div id="byline" style="padding-left: 1%;">Magnus Gjøttrup Kristensen <br> 05-02-2019</div>
+		
+		<p>At tage på museer i dag er ikke, som det var for ti år siden. I dag spiller teknologi en meget større rolle, nu hvor interaktionsdesign er blevet meget  populært. Steder, der fremviser udstillinger, samarbejder ofte med andre firmaer, der kan tilbyde  disse designs. Dette er især populært i Aarhus og omegn. Aarhus Universitet er kendt for at have en del forskellige partnere, de samarbejder med  som for eksempel Moesgaard Museum og Science Museerne. I 2001 etablerede Aarhus Universitet et tværfagligt forskningscenter kaldt CAVI  (Center for Avanceret Visualisering og Interaktion). Deres arbejde består i at bygge en masse  forskellige slags interaktiv teknologi, som kan  bruges til installationer i udstillinger. De omhandler ofte bevægelse, lyd eller det såkaldte ”projection mapping”, hvor et billede, film eller lignende  bliver projiceret hen på en flade på et virkeligt  objekt. Det sidstnævnte brugte de til en af Moesgaard Museums udstillinger om de kinesiske terrakottakrigere. I denne udstilling blev der brugt  projection mapping på en model af en kriger. Generelt handler det for CAVI om at lave installationer til andre. ”Det er jo det, vi lever af” forklarer  produktionsleder, Morten Lemvig, fra CAVI.</p>
+		<h4>Dyr, beats og knasen</h4>
+		<p>Som sagt kan digitale installationer også omhandle lyd. Ofte gør lyden udstillingerne meget  mere spændende. CAVI har skabt lydanlæg til Væksthusene, som er del af Science Museerne. Her kan man gå rundt i frodige omgivelser  mellem dyr og planter. Lydinstallationen gør oplevelsen mere virkelig med forskellige dyrelyde.</p>
+		
+		<img src=".\teknologi\so.PNG" id="AB"/>
+		<p id="BT">Hos Væksthusene er der mulighed for at gå rundt mellem en masse forskellige dyr og planet, mens man kan høre dyrelyde fra deres installation.</p>
+		
+		<p>Et andet projekt har drejet sig om musik og beats. Bord med sensorer, der opfanger, når bestemte klodser bliver lagt på bordet. Disse kloder laver forskellige beats og kan sammensættes til ét samlet stykke musik. Samtidig kan andre klodser æn- dre lydens opførsels som for eksempel hastigheden eller dybden.</p>
+		<h3>”Det er jo lige så stor en revolution, kan man sige, som skiftet fra maleri til fotografi.”</h3>
+		<h4>- Produktionsleder, Morten Lemvig</h4>
+		
+		<img src=".\teknologi\bord.PNG" id="AB"/>
+		<p id="BT">Moesgaard Museum gør flere og flere af deres udstillinger interaktive. Dette er f.eks. muligt med ”projection mapping”, hvor et billede eller en video bliver projiceret på en fysisk flade.</p>
+		
+		<p>CAVI er ikke de eneste i Aarhus, der arbejder med lyd. Hos Radar er lyd altafgørende når forskellige kunstnere skal optræde hos dem. Her giver man alle en chance for at udfolde sig musikalsk til små koncerter. Det er dog ikke kun disse, der skaber  lyd. Højtalerne i deres indgang og toiletter afspiller obskure og skrattende lyde. Disse lyde dannes  af et program, der kører, når de har åben, som er lavet i videospilprogrammet Unity. Programmet gør, at lydene er tilfældige, så det ikke er den samme sekvens, der bliver afspillet igen og igen.</p>
+		
+		<h4>Bæredygtighed betyder ikke det store</h4>
+		<p>Selvom mange af disse installationer sætter præg på mange ting, er det ikke altid, der bliver tænkt over konsekvenserne ved dem. Det er i hvert fald ikke lige det, interaktionsdesignere går rundt og  spekulerer på. Peter Balch Berthelsen, der er udstillingsdesigner på Moesgaard Museum, kan  godt se problemerne i det og erkender, at han burde tænke mere over det i hverdagen. ”Den måde man bygger tech på i dag er i forhold til, hvad hardwaren skal kunne. Og det er faktisk ikke i forhold til så meget andet. Og jeg må være helt ærlig og sige: Det burde måske fylde en del af min hverdag, fordi Jorden er fucking på vej under, og  vi dør alle sammen om 1000 år, og vi er alle sammen lige gode om det, ikke?” fortæller han. Generelt er det dog ikke kun produktionen af hardwaren, der ikke er bæredygtig. Der bruges meget  strøm, når alle udstillingerne skal køre hele tiden,  mens der er gæster på besøg. Morten Lemvig mener heller ikke, at det fylder særlig meget i deres  arbejde: ”Lige så snart du putter lys på et hus, så bruger du jo mere strøm, end hvis du ikke havde puttet lyset på.” ”Det er ikke meget påtrængende i de projekter, vi i øvrigt laver.” ”Derinde der  havde vi sådan nogle gammeldags gløderørsprojektorer derinde med gløderørslys, ikke? Og det  er jo skiftet ud. Så på den måde følger vi med,  men det er ikke noget, der har en meget stor betydning,” forklarer han, mens han peger mod et  af deres studierum.</p>
+		
+		<h3>”... Jorden er fucking på vej under, og vi dør alle sammen om 1000 år, og vi er alle sammen lige gode om det, ikke?”</h3>
+		<h4>- Udstillingsdesigner, Peter Balch Berthelsen</h4>
+		
+		<h4>Fremtiden for interaktionsdesign</h4>
+		<p>Måske tænker disse folk ikke så meget over bæredygtighed. Men hvordan ser fremtiden med  denne form for teknologi egentlig ud? Morten  Lemvig forklarer, at det bliver meget mere tilgængeligt: ”Vi har jo nogle ret avancerede værktøjer, som vi selv har lavet, men det jeg kan se,  det er, at jeres generation kommer til at have...  altså der er jo værksteder og nye mikrocomputere, så det bliver mere almindeligt, at sådan  nogle som jer kommer til at arbejde med det.” ”Det er jo lige så stor en revolution, kan man sige, som skiftet fra maleri til fotografi.” ”Nu kan man  tage knaldhamrende gode billeder med sin telefon.” Samtidig ser han positivt på fremtiden:  ”Hvad det så betyder, at der pludselig er hundredtusinder i Danmark, der kan lave sådan noget i  stedet for hundrede, det er svært at sige. Det ved vi om ti år. Men jeg glæder mig,” siger han med et smil.</p>
+		
+	</div>
+	<br>
+	<br>
+	<br>
+  </body>
+</html>
